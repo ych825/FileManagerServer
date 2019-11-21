@@ -46,5 +46,5 @@
 ```
 ## 注意事项
 1、文件上传保存路径为D:/FileCenter/
-![](../项目运行页面.jpg)
+![](https://github.com/ych825/FileManagerServer/项目运行页面.jpg)
 
