@@ -1,0 +1,37 @@
+2019-11-21 21:12:44 -Starting FileServerApplication on JAVA3-4 with PID 35572 (D:\FileManagerServer\target\classes started by Administrator in D:\FileManagerServer)
+2019-11-21 21:12:44 -No active profile set, falling back to default profiles: default
+2019-11-21 21:12:44 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@73a1e9a9: startup date [Thu Nov 21 21:12:44 CST 2019]; root of context hierarchy
+2019-11-21 21:12:44 -HV000001: Hibernate Validator 5.3.6.Final
+2019-11-21 21:12:45 -Logging initialized @3326ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-11-21 21:12:45 -Server initialized with port: 8081
+2019-11-21 21:12:45 -jetty-9.4.7.v20170914
+2019-11-21 21:12:45 -DefaultSessionIdManager workerName=node0
+2019-11-21 21:12:45 -No SessionScavenger set, using defaults
+2019-11-21 21:12:45 -Scavenging every 660000ms
+2019-11-21 21:12:45 -Initializing Spring embedded WebApplicationContext
+2019-11-21 21:12:45 -Root WebApplicationContext: initialization completed in 1312 ms
+2019-11-21 21:12:45 -Mapping servlet: 'dispatcherServlet' to [/]
+2019-11-21 21:12:45 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-21 21:12:45 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-21 21:12:45 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-11-21 21:12:45 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-11-21 21:12:45 -Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@2a3a299{/,[file:///C:/Users/Administrator/AppData/Local/Temp/jetty-docbase.7822944814139253942.8081/],AVAILABLE}
+2019-11-21 21:12:45 -Started @3624ms
+2019-11-21 21:12:46 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@73a1e9a9: startup date [Thu Nov 21 21:12:44 CST 2019]; root of context hierarchy
+2019-11-21 21:12:46 -Mapped "{[/api/del],methods=[POST]}" onto public com.ym.utils.R com.ym.controller.FileController.remove(java.lang.String)
+2019-11-21 21:12:46 -Mapped "{[/api/list],methods=[GET]}" onto public com.ym.utils.R com.ym.controller.FileController.list(java.lang.Integer,java.lang.Integer)
+2019-11-21 21:12:46 -Mapped "{[/api/upload],methods=[POST]}" onto public com.ym.utils.R com.ym.controller.FileController.upload(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2019-11-21 21:12:46 -Mapped "{[/api/download/{id}],methods=[GET]}" onto public void com.ym.controller.FileController.download(java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-11-21 21:12:46 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-21 21:12:46 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-21 21:12:46 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-21 21:12:46 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-21 21:12:46 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-21 21:12:46 -Adding welcome page: class path resource [static/index.html]
+2019-11-21 21:12:47 -Registering beans for JMX exposure on startup
+2019-11-21 21:12:47 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-11-21 21:12:47 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-11-21 21:12:47 -FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2019-11-21 21:12:47 -Started ServerConnector@7da10b5b{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2019-11-21 21:12:47 -Jetty started on port(s) 8081 (http/1.1)
+2019-11-21 21:12:47 -Started FileServerApplication in 3.327 seconds (JVM running for 4.859)
